@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .classic-img {
+  width: 422rpx;
+  height: 422rpx;
+  margin-top: 60rpx;
+  border-radius: 50%;
+}
+
+.container .classic-img.rotate {
+  animation: rotation 10s linear;
+}
+
+.container .player-img {
+  width: 120rpx;
+  height: 120rpx;
+  position: relative;
+  bottom: 271rpx;
+}
+
+.container .tag {
+  width: 44rpx;
+  height: 127rpx;
+  position: relative;
+  bottom: 160rpx;
+  right: 310rpx;
+}
+
+.container .content {
+  max-width: 550rpx;
+  margin-top: -90rpx;
+  font-size: 36rpx;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

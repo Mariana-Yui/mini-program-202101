@@ -1,0 +1,9 @@
+<view class="container">
+  <image src="{{book.image||book.img}}"></image>
+  <view class="description">
+    <text class="title">{{book.title}}</text>
+    <text class="author">{{book.author}}</text>
+    <view class="foot" wx:if="{{showLike}}"></view>
+    <text class="footer">{{book.fav_nums}}&nbsp;&nbsp;喜欢</text>
+  </view>
+</view>

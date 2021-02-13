@@ -1,0 +1,15 @@
+{
+  "name": "old_land",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Mariana-Yui/mini-program-202101.git",
+  "author": "mariana <HealMSlin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "editorconfig": "^0.15.3",
+    "eslint": "^7.17.0",
+    "eslint-config-alloy": "^3.10.0",
+    "prettier": "^2.2.1"
+  }
+}
